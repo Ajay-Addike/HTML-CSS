@@ -1,0 +1,193 @@
+
+    .subscribe{
+        background-color:#c00;
+        color:white;
+        border: none;
+        padding: 10px;
+        border-radius: 2px;
+        cursor:pointer;
+        transition: opacity 1s;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-width:10PX ;
+    }
+    .subscribe:hover{
+        opacity: 0.8;    
+    }
+    .subscribe:active{
+        opacity: 0.5;
+    }
+    .join{
+        background-color: white;
+        border-color:blue;
+        border-style: solid;
+        margin: 10px;
+        color:blue;
+        padding: 10px;
+        transition: background-color 0.15s,color 0.15s,box-shadow 0.15s;
+    }
+    .join:hover{
+        background-color: blue;
+        color:white;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    }
+    .tweet{
+        background-color: rgb(0, 174, 255);
+        border-color: rgb(0, 174, 255);
+        border-radius: 50px;
+        margin-left: 10px;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 90px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .Request-now{
+        background-color: black;
+        color: white;
+        display: block;
+        height: 50px;
+        width: 100px;
+        margin: 10px;
+    }
+    .Request-now:HOVER{
+        opacity: 0.5;
+    }
+    .Add-to-cart{
+        background-color: yellow;
+        border-color: yellow;
+        border-radius: 50px;
+        border: none;
+        display: block;
+        margin: 10px;
+        height: 50px;
+        width: 100px;
+    }
+    .Add-to-cart:hover{
+        background-color: yellowgreen;
+    }
+    .Sign-up{
+        background-color: rgb(46, 164, 79);
+        border-color: rgb(46, 164, 79);
+        color: white;
+        display: block;
+        border: none;
+        border-radius: 5px;
+        margin: 10px;
+        height: 50px;
+        width: 100px;
+    }
+    .Sign-up:HOVER{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    }
+    .Get-started{
+        background-color: rgb(121, 82, 179);
+        border-color: rgb(121, 82, 179);
+        border-radius: 5px;
+        color: white;
+        border: none;
+       
+        margin: 10px;
+        height: 50px;
+        width: 100px;
+    }
+    .Get-started:hover{
+        opacity: 0.5;
+    }
+    .Download{
+        background-color: white;
+        border-color: rgb(108, 117, 125);
+        border-radius: 5px;
+      
+        margin: 10px;
+        height: 50px;
+        width: 100px;
+    }
+    .Download:hover{
+        background-color: rgb(108, 117, 125);
+        color: white;
+    }
+    .Apply-on-website{
+        background-color: rgb(4, 41, 250);
+        color: white;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+    }
+    .save{
+        background-color: white;
+        color: rgb(6, 22, 173);
+        height: 40px;
+        width: 60px;
+        border-radius: 20px;
+    }
+    .save:hover{
+        background-color: rgb(135, 215, 226);
+        color: white;
+    }
+    #container{
+        display:block;
+
+    }
+    #pagination{
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+
+        
+    }
+    .first{
+        padding: 10px;
+
+        }
+        .anchor{
+            padding: 10px;
+        }
+    .Stretch{
+        margin: 10px;
+        padding: 10px;
+        background-color: green;
+        color: white;
+        display: block;
+        border: none;
+    }
+    .Stretch:hover{
+        padding: 30px;
+    }
+    .Shadow{
+        margin: 10px;
+        padding: 10px;
+        background-color: green;
+        color: white;
+        display: block;
+        border: none;
+        box-shadow: 5px 5px 10px rgb(121, 82, 179);
+    }
+    .Shadow:active{
+        padding-right: 15px;
+        padding-bottom: 15px;
+        margin-left: 20px;
+        margin-top: 20px;
+
+    }
+    .One-Two-Three{
+       display: block;
+       margin: 10px;
+       padding: 10px;
+    }
+    .btn{
+        margin: 10px;
+        padding: 10px;
+        background-color: green;
+        color: white;
+        border:none;
+    }
+    .btn:hover{
+        padding-left: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+    }
+
