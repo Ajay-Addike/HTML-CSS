@@ -3,11 +3,13 @@
         background-color:#c00;
         color:white;
         border: none;
-        height: 36px;
-        width: 105px;
+        padding: 10px;
         border-radius: 2px;
         cursor:pointer;
         transition: opacity 1s;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-width:10PX ;
     }
     .subscribe:hover{
         opacity: 0.8;    
@@ -21,8 +23,7 @@
         border-style: solid;
         margin: 10px;
         color:blue;
-        height: 50px;
-        width: 90px;
+        padding: 10px;
         transition: background-color 0.15s,color 0.15s,box-shadow 0.15s;
     }
     .join:hover{
@@ -131,6 +132,20 @@
         display:block;
 
     }
+    #pagination{
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+
+        
+    }
+    .first{
+        padding: 10px;
+
+        }
+        .anchor{
+            padding: 10px;
+        }
 </STYLE>
 
 
@@ -140,7 +155,7 @@
 </button>
 
 <bUtton class="join">
-    JOIN
+    request you to JOIN please my channel 
 </bUtton>
 
 <button class="tweet">
@@ -176,3 +191,12 @@
         Save
     </button>
 </div>
+
+<DIV ID="pagination">
+    <button class="first">Back</button>
+    <a href="https://fonts.google.com/icons" target="_blank" class="anchor">1</a>
+    <a href="https://fonts.google.com/icons" target="_blank" class="anchor">2</a>
+    <a href="https://fonts.google.com/icons" target="_blank" class="anchor">3</a>
+    <a href="https://fonts.google.com/icons" target="_blank" class="anchor">4</a>
+    <button class="first">Next</button>
+</DIV>
