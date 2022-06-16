@@ -2,16 +2,54 @@
 <html>
     <head>
         <title>Youtube</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <style>
             .thumbnail-1{
                 width: 300px;
-                height: 300px;
                 object-fit: contain;
                 object-position: center;
+            }
+            .video-title{
+                font-family: 'Roboto', sans-serif;;
+                width: 300px;
+            }
+            div{
+                display: inline-block;
+            }
+            .video1{
+                margin-right: 10px;
+                vertical-align: top;
             }
         </style>
     </head>
     <body>
-        <img class="thumbnail-1" src="Thumbnails/thumbnail-1.webp">
+        <div class="video1">
+            <img class="thumbnail-1" src="Thumbnails/thumbnail-1.webp">
+            <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+                Marques Brownlee
+            </p>
+            <p class="video-stats">
+                3.4M views · 6 months ago
+            </p>
+        </div>
+        <div>
+            <img class="thumbnail-1" src="Thumbnails/thumbnail-2.webp">
+            <p class="video-title">
+                
+                Try Not To Laugh Challenge #9
+            </p>
+            <p class="video-author">
+                Markiplier
+            </p>
+            <p class="video-stats">
+                19M views · 4 years ago
+            </p>
+        </div>
+        
     </body>
 </html>
