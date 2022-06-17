@@ -1,0 +1,104 @@
+
+.cat{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+.cat-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+}
+.search-box{
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin-top: 20px;
+}
+.google-search-box{
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 50px gray;
+}
+div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.linked-in{
+    width: 380px;
+    padding-top: 10px;
+}
+.linked-in-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 150px 8px 150px;
+}
+.twitter{
+    width: 50px;
+    height: 50px;
+   
+}
+p{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.No{
+    margin-left: 10px;
+}
+.cat-cards{
+    display: block;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.Name-div-cat-cards,.p-div-cat-cards{
+    display: block;
+    padding-left: 0;
+    text-align: left;
+    font-weight: bolder;
+}
+.p-div-cat-cards{
+    font-weight: 500;
+    color: gray;
+}
+.btn-div-cat-cards{
+    display: block;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.div-cat-cards{
+    display: inline-block;
+    margin-left: 10px;
+}
+.layout-main{
+    display: inline-block;
+    width: 500px;
+}
+.layout{
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.dog-image{
+    width: 100%;
+    border-radius: 50px;
+}
+.layout-2{
+    display: inline-block;
+
+}
